@@ -448,7 +448,7 @@ def removetiger(update: Update, context: CallbackContext) -> str:
 @run_async
 @whitelist_plus
 def whitelistlist(update: Update, context: CallbackContext):
-    reply = "<b>Known D Rank Hunters 🐺:</b>\n"
+    reply = "<b>Known white magicians🐺:</b>\n"
     bot = context.bot
     for each_user in WOLVES:
         user_id = int(each_user)
@@ -464,7 +464,7 @@ def whitelistlist(update: Update, context: CallbackContext):
 @run_async
 @whitelist_plus
 def tigerlist(update: Update, context: CallbackContext):
-    reply = "<b>Known C Rank Hunters 🐯:</b>\n"
+    reply = "<b>Known wind magicians🐯:</b>\n"
     bot = context.bot
     for each_user in TIGERS:
         user_id = int(each_user)
@@ -480,7 +480,7 @@ def tigerlist(update: Update, context: CallbackContext):
 @whitelist_plus
 def supportlist(update: Update, context: CallbackContext):
     bot = context.bot
-    reply = "<b>Known B Rank Hunters 👹:</b>\n"
+    reply = "<b>Known water magicians👹:</b>\n"
     for each_user in DEMONS:
         user_id = int(each_user)
         try:
@@ -496,7 +496,7 @@ def supportlist(update: Update, context: CallbackContext):
 def sudolist(update: Update, context: CallbackContext):
     bot = context.bot
     true_sudo = list(set(DRAGONS) - set(DEV_USERS))
-    reply = "<b>Known A Rank Hunters 🐉:</b>\n"
+    reply = "<b>Known black magicians🐉:</b>\n"
     for each_user in true_sudo:
         user_id = int(each_user)
         try:
@@ -512,7 +512,7 @@ def sudolist(update: Update, context: CallbackContext):
 def devlist(update: Update, context: CallbackContext):
     bot = context.bot
     true_dev = list(set(DEV_USERS) - {OWNER_ID})
-    reply = "<b>S Rank Hunters ⚡️:</b>\n"
+    reply = "<b>storm magicians ⚡️:</b>\n"
     for each_user in true_dev:
         user_id = int(each_user)
         try:
@@ -529,15 +529,15 @@ Commands listed here only work for users with special access are mainly used for
 Group admins/group owners do not need these commands. 
 
  ╔ *List all special users:*
- ╠ `/aranks`*:* Lists all A Rank Hunters
- ╠ `/branks`*:* Lists all B Rank Hunters
- ╠ `/cranks`*:* Lists all C Rank Hunters
- ╠ `/dranks`*:* Lists all D Rank Hunters
- ╠ `/sranks`*:* Lists all S Rank Hunters
- ╠ `/addarank`*:* Adds a user to A Rank Hunter
- ╠ `/addbrank`*:* Adds a user to B Rank Hunter
- ╠ `/addcrank`*:* Adds a user to C Rank Hunter
- ╠ `/adddrank`*:* Adds a user to D Rank Hunter
+ ╠ `/blackmagicians`*:* Lists all A Rank Hunters
+ ╠ `/watermagicians`*:* Lists all B Rank Hunters
+ ╠ `/windmagicians`*:* Lists all C Rank Hunters
+ ╠ `/whitemagicians`*:* Lists all D Rank Hunters
+ ╠ `/stormagicains`*:* Lists all S Rank Hunters
+ ╠ `/addblackmagicians`*:* Adds a user to A Rank Hunter
+ ╠ `/watermagicians`*:* Adds a user to B Rank Hunter
+ ╠ `/windmagicians`*:* Adds a user to C Rank Hunter
+ ╠ `/whitemagicians`*:* Adds a user to D Rank Hunter
  ╚ `Add dev doesnt exist, devs should know how to add themselves`
 
  ╔ *Ping:*
