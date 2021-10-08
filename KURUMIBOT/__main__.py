@@ -51,8 +51,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot. I will use my angel Zafkiel and protect your group. You can find my list of available commands with /help.
+`Hey There!` [✰](https://telegra.ph/file/0ed48df18f4175d61b5d8.jpg) 
+`≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+I am Himiko Toga! Aᴛ Yᴏᴜʀ  Sᴇʀᴠɪᴄᴇ..
+𝔗𝔥𝔢 𝔖𝔱𝔲𝔡𝔢𝔫𝔱 𝔳𝔦𝔩𝔩𝔞𝔫
+𝔣𝔯𝔬𝔪 𝔅𝔬𝔨𝔲 𝔫𝔬 𝔥𝔢𝔯𝔬 𝔄𝔠𝔠𝔡𝔢𝔪𝔦𝔠
+━━━━━━━━━━━━━━━━━━━━━━━━
+Press /help to see all commands
+━━━━━━━━━━━━━━━━━━━━━━━━
+Here with my Knife already
+⦿I am protecting `{}` users
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 """
 
 HELP_STRINGS = """
